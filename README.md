@@ -77,14 +77,15 @@ branch1:
 
 ## Логи команд:  
 
-* git config --global user.name "4918 Sinenok I.V."
-* git config --global user.email sinenok.10@mail.ru
-* git clone https://github.com/Sinenok-star/LR6.git
+/*Настройка клиента git и клонирование рперезитория*/
+
+* git config --global user.name "Lebedev E.M. 4918"
+* git config --global user.email egorkabofabo82@gmail.com
+* git clone https://github.com/eradecator292/LR6.git
 * cd LR6   
   
-  
-/*Добавление файл Ivan.txt через интерфейс GitHub*/
-  
+/*Добавление файл Egor.txt через интерфейс GitHub, получение истории операций для каждой из веток, просмотр последних изменений*/
+
 * git pull  
 * git log  
 * git log -2  
@@ -92,16 +93,35 @@ branch1:
 * git checkout master  
 * git merge branch1  
   
-/*Устранение конфликта в git GUI*/
+/*Cлияние в ветку master*/
+
+* git checkout branch1  
+* git checkout master  
+* git merge branch1      
+
+/*Удаление ветки branch1
+
+* git branch -d branch1
     
-* git branch -d branch   
-    
- /изменение в файле Ivan /   
+/*изменение в файле Egor.txt*/   
    
 * git add Ivan.txt  
 * git commit -m "change 1"  
+
+/* Хард откат коммита*/
+
 * git reset --hard @~2  
+
+/*Созадние ветки для отчёта*/
+
 * git branch report
+
+/*История операций в форматированном виде*/
+* git log --pretty=format:"%h - %an, %ar : %s"
+
+/*Отправка в сетевое хранилище*/
+* git push https://github.com/eradecator292/LR6.git
+
 
 ## История операций:  
 
