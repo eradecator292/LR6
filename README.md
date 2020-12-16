@@ -103,12 +103,12 @@ branch1:
 
 * git branch -d branch1
     
-/*изменение в файле Egor.txt*/   
+/*Изменение в файле Egor.txt*/   
    
 * git add Ivan.txt  
 * git commit -m "change 1"  
 
-/* Хард откат коммита*/
+/*Хард откат коммита*/
 
 * git reset --hard @~2  
 
