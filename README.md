@@ -16,12 +16,15 @@
 ![шаг 3](https://github.com/eradecator292/LR6/blob/report/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B/3.jpg)
 ### 4. Получение всей истории операций  
 Получаем историю операций для каждой ветки:
+
 master:
 
 ![шаг 4](https://github.com/eradecator292/LR6/blob/report/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B/4.jpg)
+
 branch1:
 
 ![шаг 4](https://github.com/eradecator292/LR6/blob/report/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B/5.jpg)
+
 Последние изменения:
 
 ![шаг 4](https://github.com/eradecator292/LR6/blob/report/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B/6.jpg)
