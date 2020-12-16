@@ -99,7 +99,7 @@ branch1:
 * git checkout master  
 * git merge branch1      
 
-/*Удаление ветки branch1
+/*Удаление ветки branch1*/
 
 * git branch -d branch1
     
